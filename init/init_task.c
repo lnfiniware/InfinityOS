@@ -62,7 +62,7 @@ unsigned long init_shadow_call_stack[SCS_SIZE / sizeof(long)] = {
 };
 #endif
 
-/* init to 2 - one for init_task, one to ensure it is never freed */
+/* init to 2 - one for init_task, one to ensure it is never freed (dont u worry)*/
 static struct group_info init_groups = { .usage = REFCOUNT_INIT(2) };
 
 /*
