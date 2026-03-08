@@ -1,0 +1,2 @@
+# InfinityOS
+Linux. Without Limits.
